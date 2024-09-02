@@ -23,5 +23,6 @@ func main() {
 		return
 	}
 
+	// Executing root command
 	cmd.Execute()
 }
