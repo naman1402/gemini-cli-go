@@ -23,6 +23,6 @@ func main() {
 		return
 	}
 
-	// Executing root command
+	// Executing root command (cmd/root.go)
 	cmd.Execute()
 }

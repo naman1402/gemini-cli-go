@@ -12,7 +12,7 @@ import (
 // this function will display help message when no arguments are passed
 
 var rootCmd = &cobra.Command{
-	Use:   "gemini-cli",
+	Use:   "gemini",
 	Short: "Gemini CLI is a command line tool for Gemini API",
 	Run: func(cmd *cobra.Command, args []string) {
 		err := cmd.Help()
